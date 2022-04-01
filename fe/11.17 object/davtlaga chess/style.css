@@ -1,0 +1,21 @@
+body{
+    background-color: bisque;
+    text-align: center;
+}
+.tableH{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+
+}
+.tableJ{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+.withBorder{
+    border: 2px solid black;
+}
+.black{
+    background-color: rgb(99, 15, 15);
+}

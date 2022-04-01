@@ -1,0 +1,48 @@
+body {
+  color: #fff;
+  font-family: "Gotham Rounded A", "Gotham Rounded B", "Gotham Rounded", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  background-color:darkcyan;
+}
+
+main {
+  width: 90%;
+  max-width: 1080px;
+  padding: 40px 0;
+  margin: auto;
+  background-color: cadetblue;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.75em;
+}
+
+h2 {
+  font-size: 2.25em;
+}
+
+p {
+  font-size: 2.15em;
+  line-height: 1.5;
+}
+
+.gold{
+  color: gold;
+  text-shadow: 0 3px 3px rgb(58, 58, 58);
+}
+
+.silver{
+  color: silver;
+  text-shadow: 0 3px 3px rgb(58, 58, 58);
+}
+
+.bronze{
+  color: #cd7f32;
+  text-shadow: 0 3px 3px rgb(58, 58, 58);
+}
+
+.nocrown{
+  color: black;
+  text-shadow: 0 3px 3px rgb(58, 58, 58);
+}

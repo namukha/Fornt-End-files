@@ -1,0 +1,38 @@
+body{
+    font-family: 'Merriweather', serif !important;
+    font-size: 1.3rem !important;
+}
+.calculator{
+    padding: 50px;
+    margin: 100px;
+    width: 345px !important;
+    height: 500px;
+    background-color: #302f2f;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px;
+}
+input{
+    width: 320px;
+    height: 60px;
+    text-align: end;
+    background-color: #abbdbd;
+}
+button{
+    width: 70px;
+    height: 60px;
+    border-radius: 5px !important;
+    margin-top: 10px !important;
+    background-color: #d8d8d8;
+}
+.egnee1 button{
+    height: 50px;
+}
+.delete, .huvaahSign, .percent, .log, .equal{
+    width: 60px;
+}
+.delete{
+    background-color: #A72608;
+}
+.equal{
+    background-color: #dc5f2e;
+}

@@ -1,0 +1,76 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2rem;
+    text-align: center;
+}
+.ball1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(126, 35, 28);
+    border-radius: 50%;
+    margin: 10px;
+}
+.ball2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(175, 91, 12);
+    border-radius: 50%;
+    margin: 10px;
+}
+.ball3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(224, 185, 75);
+    border-radius: 50%;
+    margin: 10px;
+}
+.ball4{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(138, 194, 101);
+    border-radius: 50%;
+    margin: 10px;
+}
+.ball5{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(62, 163, 150);
+    border-radius: 50%;
+    margin: 10px;
+}
+.ball6{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(41, 91, 138);
+    border-radius: 50%;
+    margin: 10px;
+}
+.ball7{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(12, 13, 95);
+    border-radius: 50%;
+    margin: 10px;
+}
+.ball8{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(51, 27, 90);
+    border-radius: 50%;
+    margin: 10px;
+}
+.ball9{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(101, 14, 109);
+    border-radius: 50%;
+    margin: 10px;
+}
+.ball10{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(105, 54, 74);
+    border-radius: 50%;
+    margin: 10px;
+}

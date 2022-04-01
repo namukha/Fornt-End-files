@@ -1,0 +1,107 @@
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/double-bubble-outline.webp);
+    background-repeat: repeat;
+  }
+  
+  .header1{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/resort.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+    box-shadow: inset 0 0  10px #000;
+    position: relative;
+    text-align: center;
+    padding: 150px 0;
+    z-index: 1;
+  }
+
+  .header1::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+  }
+
+  .header2{
+    width: 100%;
+    height: 20%;
+    position: relative;
+    background-image: url(/img/mountains.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    z-index: 1;
+  }
+
+  h1{
+    font-family: 'Festive', cursive;
+    font-size: 4rem;
+    color: rgb(248, 248, 248);
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.5);
+    
+  }
+
+  section{
+    background-color: rgba(201, 167, 167, 0.5);
+    box-shadow: 0 0 5px #000;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 20px 60px;
+  }
+
+  section:hover{
+    box-shadow: 0 0 20px #000;
+  }
+
+  .sec1{
+    color: white;
+    position: relative;
+    background-image: url(/img/mountain-landscape.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+    overflow: hidden;
+  }
+  
+  .sec1::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-image: linear-gradient(45deg, #000 10%, rgba(250, 250, 250, 0.5) 100%);
+    z-index: -1;
+    overflow: hidden;
+  }
+
+  .callout{
+    display: inline-block;
+    width: 150px;
+    height: 20px;
+    color: black;
+    text-align: center;
+    background-image: radial-gradient(rgb(167, 151, 151), rgb(65, 61, 61));
+    border: thistle solid 1px;
+    border-radius: 10px;
+  }
+
+  img{
+    width: 100%;
+  }
+  
+  main{
+    max-width: 900px;
+    margin: 0 auto;
+  }

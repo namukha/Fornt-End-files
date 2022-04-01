@@ -1,0 +1,40 @@
+/* ================================= 
+  Flexbox
+==================================== */
+
+.main-header{
+  display: flex;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+}
+
+.main-nav{
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+
+.row{
+  display: flex;
+}
+
+.secondary{
+  order: -1;
+  width: 20%;
+}
+
+.banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.col{
+  flex-basis: 80%;
+}
+
+body{
+  font-family: 'Scheherazade New', serif;
+}
