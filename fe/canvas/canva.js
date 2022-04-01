@@ -9,9 +9,9 @@ let wave = {
     y: canvas.height/2,
     amp: 40,
     length: 0.01,
-    freq: 0.01
+    freq: 0.1
 }
-
+let increment = wave.freq;
 function animation () {
     requestAnimationFrame(animation)
     ctx.fillStyle = '#fff'
@@ -21,7 +21,7 @@ function animation () {
     ctx.moveTo(0, canvas.height/2);
     
     for(let i=0; i<canvas.width; i++){
-        ctx.lineTo(i, canvas.height/2 + Math.sin(i * wave.length + wave.amp) * 100 );
+        ctx.lineTo(i, canvas.height/2 + Math.sin(i * wave.length + increment) * wave.amp );
     }
     ctx.strokeStyle = 'red'
     ctx.stroke();
